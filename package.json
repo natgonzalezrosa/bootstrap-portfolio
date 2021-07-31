@@ -1,0 +1,37 @@
+{
+  "name": "bootstrap-portfolio",
+  "version": "1.0.0",
+  "description": "Learning bootstrap version 5 with SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natgonzalezrosa/bootstrap-portfolio.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Natalia Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natgonzalezrosa/bootstrap-portfolio/issues"
+  },
+  "homepage": "https://github.com/natgonzalezrosa/bootstrap-portfolio#readme",
+  "devDependencies": {
+    "@popperjs/core": "^2.9.2",
+    "postcss": "^8.3.6",
+    "sass": "^1.37.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.3.1",
+    "bootstrap": "^5.0.2",
+    "postcss-cli": "^8.3.1"
+  }
+}
