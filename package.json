@@ -4,7 +4,7 @@
   "description": "Learning bootstrap version 5 with SASS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass scss:assets/css"
   },
   "repository": {
     "type": "git",
