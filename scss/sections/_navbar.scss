@@ -1,0 +1,23 @@
+@import '../custom';
+@import '../components/mixins';
+
+
+.menu {
+    @include gradient;
+
+    li {
+        padding: 0 0.7rem;
+
+        a {
+            color: $white !important;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+
+    .navbar-brand {
+        color: $white;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
