@@ -1,0 +1,8 @@
+@import '../custom';
+@import '../components/mixins';
+
+.testimonials {
+    position: relative;
+    padding: 0;
+    @include gradient;
+}
