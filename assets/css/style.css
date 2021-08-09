@@ -172294,4 +172294,17 @@ textarea.form-control-lg {
   font-size: 1.2rem;
 }
 
+.form {
+  padding: 3rem;
+}
+.form button {
+  border: none;
+  color: #fff;
+}
+.form button a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
 /*# sourceMappingURL=style.css.map */

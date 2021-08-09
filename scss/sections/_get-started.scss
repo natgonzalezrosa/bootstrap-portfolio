@@ -27,3 +27,19 @@
         }
     }
 }
+
+// FORM CONTENT
+.form {
+    padding: 3rem;
+
+    button {
+        border: none;
+        color: $white;
+
+        a {
+            color: $white;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+    }
+}
