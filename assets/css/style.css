@@ -193810,8 +193810,14 @@ textarea.form-control-lg {
   position: relative;
 }
 .contact-box__icon {
-  width: 4rem;
+  width: 2rem;
   stroke: #9926f0;
+  padding-top: 0.5rem;
+}
+@media (min-width: 576px) {
+  .contact-box__icon {
+    width: 4rem;
+  }
 }
 .contact-box__info {
   padding: 0.4rem;
@@ -193820,12 +193826,22 @@ textarea.form-control-lg {
 .contact-box__info--title {
   color: #fff;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1rem;
+}
+@media (min-width: 576px) {
+  .contact-box__info--title {
+    font-size: 1.4rem;
+  }
 }
 .contact-box__info--subtitle {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #6c757d;
   text-decoration: none;
+}
+@media (min-width: 576px) {
+  .contact-box__info--subtitle {
+    font-size: 1rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
