@@ -46,3 +46,22 @@
         }
     }
 }
+
+// STYLE THE SOCIAL MEDIA CONTENT
+.footer-sm {
+
+    a {
+        color: $white;
+
+        i {
+            font-size: 1rem;
+            margin-left: 1rem;
+
+            @include media-breakpoint-up(sm) {
+                font-size: 1.6rem;
+            }
+
+
+        }
+    }
+}

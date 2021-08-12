@@ -193844,4 +193844,17 @@ textarea.form-control-lg {
   }
 }
 
+.footer-sm a {
+  color: #fff;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    font-size: 1.6rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
