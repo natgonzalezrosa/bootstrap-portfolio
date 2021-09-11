@@ -150703,7 +150703,7 @@ textarea.form-control-lg {
   }
 }
 .portfolio {
-  padding: 4rem 0;
+  margin-bottom: 6rem;
 }
 .portfolio button {
   text-transform: capitalize;
